@@ -10,6 +10,8 @@ import {
 import { generateSuggestions } from "@/lib/suggestions";
 import { ActionBar } from "./ActionBar";
 
+export const runtime = 'edge'
+
 // ── Page ─────────────────────────────────────────────────────────────────────
 
 export default async function ResultsPage({

@@ -38,7 +38,7 @@ export function ActionBar({ result, inputs }: Props) {
       "",
       `RECOMMENDATION: ${recommendation === "equal" ? "Both regimes are equal" : `${recommendation.toUpperCase()} REGIME — saves ${formatINR(savingsAmount)}/year`}`,
       "",
-      "Calculated at https://localhost:3000/calculator",
+      "Calculated at https://tax.carishabh.in/calculator",
       "Not financial advice. Verify with a CA for complex situations.",
     ];
 
