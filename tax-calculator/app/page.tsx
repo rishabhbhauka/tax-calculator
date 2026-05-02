@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { SupportSection } from "./results/SupportSection";
 
 export default function Home() {
   return (
@@ -6,6 +7,11 @@ export default function Home() {
       <HeroSection />
       <MockResultSection />
       <HowItWorksSection />
+      <div className="py-12 px-6" style={{ background: "var(--color-bg)" }}>
+        <div style={{ maxWidth: 480, margin: "0 auto" }}>
+          <SupportSection />
+        </div>
+      </div>
       <Footer />
     </main>
   );

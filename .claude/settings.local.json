@@ -3,7 +3,9 @@
     "allow": [
       "Bash(npx create-next-app@latest tax-calculator --typescript --tailwind --eslint --app --no-src-dir --import-alias \"@/*\" --yes)",
       "Bash(Get-Content \"C:\\\\Users\\\\risha\\\\AppData\\\\Local\\\\Temp\\\\claude\\\\r--Learning-VS-Code-Tax-Calculator\\\\9a2de904-1bbf-48f0-bf19-0a29b538e2af\\\\tasks\\\\bcfl8n8pl.output\" -Tail 30)",
-      "Bash(npm run *)"
+      "Bash(npm run *)",
+      "Bash(Get-ChildItem -Recurse -Filter \"*.tsx\" \"r:\\\\Learning\\\\VS Code\\\\Tax Calculator\\\\tax-calculator\\\\app\")",
+      "Bash(Select-Object FullName)"
     ]
   }
 }
