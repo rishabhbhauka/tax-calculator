@@ -125,8 +125,7 @@ export default async function ResultsPage({
         </div>
       </div>
 
-      <div style={{ maxWidth: 1100, margin: "0 auto", padding: "0 16px 24px", display: "flex", gap: 28, alignItems: "flex-start" }}>
-        <div style={{ flex: 1, minWidth: 0 }}>
+      <div style={{ maxWidth: 800, margin: "0 auto", padding: "0 16px 24px" }}>
         {/* ── Section 1: Verdict ── */}
         <section style={{ paddingTop: 32, marginBottom: 32 }}>
           <div
@@ -320,14 +319,9 @@ export default async function ResultsPage({
           </Section>
         )}
 
-        {/* ── Support (inline) ── */}
+        {/* ── Support ── */}
         <SupportSection />
-        </div>
 
-        {/* ── Support sidebar ── */}
-        <div style={{ width: 280, flexShrink: 0, position: "sticky", top: 24 }}>
-          <SupportSection />
-        </div>
       </div>
 
       {/* Sticky action bar */}
