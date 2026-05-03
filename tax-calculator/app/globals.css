@@ -142,3 +142,25 @@ body {
   z-index: 30;
   box-shadow: 0 -4px 12px rgba(0,0,0,0.06);
 }
+
+/* Results page — responsive */
+@media (max-width: 600px) {
+  .slab-grid {
+    grid-template-columns: 1fr !important;
+  }
+  .verdict-row {
+    flex-direction: column !important;
+  }
+}
+
+/* Support section — responsive */
+@media (max-width: 480px) {
+  .support-body {
+    flex-direction: column !important;
+    align-items: center !important;
+    text-align: center !important;
+  }
+  .support-body > div {
+    align-items: center !important;
+  }
+}

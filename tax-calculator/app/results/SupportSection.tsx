@@ -29,6 +29,7 @@ export function SupportSection() {
 
   return (
     <section
+      className="support-body"
       style={{
         borderRadius: 12,
         border: "1px solid var(--color-border)",
@@ -47,8 +48,8 @@ export function SupportSection() {
         src="/upi_qr.png"
         alt="UPI QR Code"
         style={{
-          width: 160,
-          height: 160,
+          width: 80,
+          height: 80,
           borderRadius: 8,
           border: "1px solid var(--color-border)",
           display: "block",

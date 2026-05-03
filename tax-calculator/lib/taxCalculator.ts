@@ -94,7 +94,7 @@ function computeTaxFromSlabs(income: number, slabs: SlabEntry[]): number {
 function slabRangeLabel(from: number, to: number): string {
   const fmt = (n: number) =>
     n >= 10_00_000
-      ? `₹${(n / 10_00_000).toFixed(0)}L`
+      ? `₹${(n / 1_00_000).toFixed(0)}L`
       : n >= 1_00_000
       ? `₹${(n / 1_00_000).toFixed(1).replace(".0", "")}L`
       : `₹${n.toLocaleString("en-IN")}`;
