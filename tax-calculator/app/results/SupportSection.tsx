@@ -47,6 +47,7 @@ export function SupportSection() {
       <img
         src="/upi_qr.png"
         alt="UPI QR Code"
+        className="support-qr"
         style={{
           width: 80,
           height: 80,
