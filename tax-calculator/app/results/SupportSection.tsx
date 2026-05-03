@@ -49,8 +49,8 @@ export function SupportSection() {
         alt="UPI QR Code"
         className="support-qr"
         style={{
-          width: 80,
-          height: 80,
+          width: 140,
+          height: 140,
           borderRadius: 8,
           border: "1px solid var(--color-border)",
           display: "block",
